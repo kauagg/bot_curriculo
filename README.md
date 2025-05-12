@@ -29,4 +29,4 @@ Este é um projeto de uma aplicação web moderna e interativa que permite aos u
 
 1. Faça o clone do repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/kauagg/bot_curriculo.git
