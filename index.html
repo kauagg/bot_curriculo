@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Analisador Inteligente de Currículo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="">
+    <h1>Analisador Inteligente de Currículo</h1>
+  </header>
+
+  <div class="container">
+    <label for="pdfUpload">Envie seu currículo (PDF):</label>
+
+    <div class="upload-box">
+      <i class="fas fa-cloud-upload-alt upload-icon"></i>
+      <input type="file" id="pdfUpload" accept="application/pdf">
+    </div>
+
+    <button id="analisarBtn">
+      <span id="btnText">Analisar</span>
+      <i class="fas fa-spinner fa-spin" id="spinner" style="display: none; margin-left: 10px;"></i>
+    </button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
