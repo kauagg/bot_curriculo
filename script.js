@@ -41,7 +41,7 @@ document.getElementById('analisarBtn').addEventListener('click', async () => {
 });
 
 function analisarTexto(texto) {
-  const palavrasChave = ["javascript", "html", "css", "projetos", "experiência", "formação", "git", "react"];
+  const palavrasChave = ["javascript", "html", "css", "projetos", "experiência", "formação", "git", "react", "Gostoso", "ESCRAVO CLT"];
   const faltando = palavrasChave.filter(p => !texto.includes(p));
   let resultado = "";
 
